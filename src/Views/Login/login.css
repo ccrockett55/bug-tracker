@@ -1,0 +1,26 @@
+
+.bg-login {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-image: url('../../../public/images/sandbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    width: 50%;
+    padding: 110px; 
+}
+
+.login-panel {
+    display: tabel-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.login-space {
+    padding: 2px 0 8px;
+    
+}
+

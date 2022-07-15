@@ -1,0 +1,45 @@
+.sidebar {
+    position: fixed;
+    grid-column: 1;
+    width: 28vh;
+    height: 100vh;
+    text-align: center;
+    background: #145DA0; 
+    color: white; 
+}
+
+.sidebar li {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px groove #ffebd3;
+}
+
+.sidebar li:hover {
+    transition: all 0.3s;
+    background-color: #0C2D48;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .nav-link{
+    text-decoration: none;
+}
+
+.sidebar .logout {
+    background-color: #B1D4E0; 
+    position: absolute;
+    color: black;  
+    border: none;
+    padding: 3.5px;
+    bottom: 0;    
+    width: 100%;
+}
+
+.sidebar button:hover {
+    transition: all 0.3s;
+    background-color: #0C2D48;
+    color: white;
+}
